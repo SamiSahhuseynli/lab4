@@ -8,6 +8,83 @@ body {
     
 }
 
+<!-- Tapsirig 2 -->
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.red-box {
+    background-color: red;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-boxes {
+    display: flex;
+    gap: 8px;
+}
+
+.box {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+}
+
+<!-- Tapsirig 3 -->
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.card .price {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 
 
 
